@@ -10,7 +10,9 @@ body {
 }
 
 /*botones*/
-
+.botones{
+    margin-bottom:10px;
+}
 .button {
     border-radius: 5px;
     color: aliceblue;
