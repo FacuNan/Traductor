@@ -1,0 +1,110 @@
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1558106732517-X5OP27AFRHHSKLCZOFZ7/idiomas+y+traducci%C3%B3n?format=750w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    height: auto;
+    justify-content: center;
+}
+
+/*botones*/
+
+.button {
+    border-radius: 5px;
+    color: aliceblue;
+    border: black solid 2px;
+    width: 80px;
+    margin: 0px 0px;
+}
+
+.button:hover {
+    border: white solid 2px;
+    cursor: pointer;
+}
+
+.idiomas {
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(0, 175, 65, 0.7);
+    border: black solid;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+}
+
+.caja1 {
+    border: black 2px solid;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.caja2 {
+
+    border: black 2px solid;
+    align-items: center;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fromText {
+    margin: 10px 10px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.toText {
+    margin: 10px 10px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+@media(max-width:900px) {
+    .botones {
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    .container {
+        display: block;
+
+    }
+
+
+    .caja1 {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .caja2 {
+        background-color: red;
+        width: 100%;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .fromText {
+        position: relative;
+        right: 10px;
+    }
+
+    .toText {
+        position: relative;
+        right: 10px;
+    }
+}
