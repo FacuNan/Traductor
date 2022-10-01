@@ -12,6 +12,8 @@ body {
 /*botones*/
 .botones{
     margin-bottom:10px;
+    flex-direction: row;
+    text-align: center;
 }
 .button {
     border-radius: 5px;
@@ -42,35 +44,32 @@ body {
 }
 
 .caja1 {
+
     border: black 2px solid;
     align-items: center;
-    margin-right: 10px;
-    padding: 5px;
     width: 500px;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    padding:10px;
 
 }
 
 .caja2 {
-
     border: black 2px solid;
-    align-items: center;
-    padding: 5px;
+    justify-content: center;
+    padding:10px;
     width: 500px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .fromText {
-    margin: 10px 10px;
     height: 300px;
     width: 300px;
     padding: 10px;
 }
 
 .toText {
-    margin: 10px 10px;
     height: 300px;
     width: 300px;
     padding: 10px;
@@ -84,29 +83,32 @@ body {
 
     .container {
         display: block;
-
+        justify-content: center;
     }
 
 
     .caja1 {
-        width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
+        width: auto;
+       flex-direction: column;
     }
 
     .caja2 {
         background-color: red;
-        width: 100%;
+        width: auto;
         margin-top: 10px;
         background-color: rgba(0, 0, 0, 0.7);
     }
 
     .fromText {
         position: relative;
-        right: 10px;
+        width: 100%;
+      
     }
 
     .toText {
         position: relative;
-        right: 10px;
+        width: 100%;;
+       
     }
 }
